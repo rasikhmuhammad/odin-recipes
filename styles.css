@@ -1,0 +1,81 @@
+
+body.home-page {
+    background: url("./images/background-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+body.recipe-page {
+    background: url("./images/background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    backdrop-filter: blur(10px);
+}
+
+.header {
+    background-color: rgba(236, 228, 228, 0.5);
+    padding: 10px;
+    backdrop-filter: blur(20px);
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.generic-container{
+    padding: 20px 5px;
+    position: absoulte;
+    margin-top: 80px;
+
+}
+
+.text-container{
+    padding:5px 5px;
+    position: absoulte;
+    margin-top: 10px;
+    background:rgba(228, 126, 248, 0.05);
+    backdrop-filter: blur(5px);
+
+}
+
+ul.list-of-links {
+    background-color: rgba(246, 177, 248, 0.45);
+    max-width: 400px;
+    margin: 30px 100px;
+    padding: 60px 0px;
+    border-radius: 10px;
+    backdrop-filter: blur(50px);    
+}
+
+.list-of-links li {
+    padding: 0px 10px;
+    margin: 20px 0px;
+    text-align: center;
+    list-style-type: None;
+}
+
+.list-of-links a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+img.hero-banner {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    height: auto;   
+    border-radius: 10px;
+}
+
+
